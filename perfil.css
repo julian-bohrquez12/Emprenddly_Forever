@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #809fe1,#6C557a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* cuadro de perfil */
+.contenedor {
+  max-width: 400px;
+  margin: auto;
+ background: linear-gradient(to right, #33348a #6c557a);
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+/*cuadro del perfil tamaño*/
+form label {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+}
+/* cuadro donde se llena informacion*/
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  background: #6C557a;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+/* guardas cambios*/
+.btn-guardar {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* volver a justes*/
+.btn-volver {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+/* boton cambio de color a lo que se utliza*/
+.btn-volver:hover {
+  background: #4b6682;
+}

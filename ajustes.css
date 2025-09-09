@@ -57,11 +57,7 @@ h1 {
   margin-right: 10px;
 }
 
-/* Editar perfil bton*/
-.btn-editar {
-  background: #33348a;
-  color: white;
-}
+
 
 /* Cerrar Sesion */
 .btn-cerrar {
@@ -149,7 +145,7 @@ select {
   height: 30px;
 }
 
- #809fe1, #6c557a
+ 
 
 .switch input {
   opacity: 0;
@@ -211,5 +207,17 @@ input:checked + .slider::after {
     height: auto;         /* Mantiene la proporción */
     z-index: 1000;        /* Para que quede por encima */
 }
+
+/*Boton editar perfil*/
+.btn-editar {
+  display: inline-block;
+  background-color: #33348a;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+
+}
+
 
 
